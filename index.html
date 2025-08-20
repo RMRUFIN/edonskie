@@ -3,9 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rejallejon M. Rufin | Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #222;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(60,60,120,0.12);
+            padding: 40px 32px;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 16px rgba(60,60,120,0.08);
+            margin-bottom: 24px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 8px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        h2 {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 24px;
+            font-weight: 400;
+        }
+        .section {
+            margin-bottom: 32px;
+        }
+        .card {
+            background: #f5f7fa;
+            border-radius: 12px;
+            padding: 18px 20px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(60,60,120,0.06);
+        }
+        .links a {
+            color: #3a7bd5;
+            text-decoration: none;
+            margin-right: 18px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .links a:hover {
+            color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>hi! my name is Rejallejon M. Rufin this is my first github project</h1>
+    <div class="container">
+        <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="Avatar" class="avatar">
+        <h1>Rejallejon M. Rufin</h1>
+        <h2>Web Developer & Designer</h2>
+        <div class="section">
+            <div class="card">
+                <strong>About Me</strong>
+                <p>
+                    Hi! My name is Rejallejon M. Rufin. This is my first GitHub project. I am passionate about building modern, responsive websites and learning new technologies.
+                </p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="card">
+                <strong>Projects</strong>
+                <ul>
+                    <li>Personal Portfolio Website</li>
+                    <li>Simple Blog Platform</li>
+                    <li>UI Components Library</li>
+                </ul>
+            </div>
+        </div>
+        <div class="section links">
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="mailto:your.email@example.com">Email</a>
+            <a href="#">Resume</a>
+        </div>
+    </div>
 </body>
 </html>
